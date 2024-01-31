@@ -1,4 +1,4 @@
-// Material Dashboard 2 React layouts
+// Sekawan Media React layouts
 import Dashboard from "layouts/dashboard";
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";

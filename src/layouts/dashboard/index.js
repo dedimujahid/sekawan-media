@@ -9,10 +9,10 @@ import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 
-// Material Dashboard 2 React components
+// Sekawan Media React components
 import MDBox from "components/MDBox";
 
-// Material Dashboard 2 React example components
+// Sekawan Media React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -28,6 +28,16 @@ import reportsLineChartData from "layouts/dashboard/data/reportsLineChartData";
 import Projects from "layouts/dashboard/components/Projects";
 import OrdersOverview from "layouts/dashboard/components/OrdersOverview";
 
+// @mui material components
+import Card from "@mui/material/Card";
+
+import MDTypography from "components/MDTypography";
+import DataTable from "examples/Tables/DataTable";
+
+// Data
+import authorsTableData from "layouts/tables/data/authorsTableData";
+import projectsTableData from "layouts/tables/data/projectsTableData";
+
 const createData = (name, calories, fat, carbs, protein) => {
   return { name, calories, fat, carbs, protein };
 };
@@ -41,6 +51,8 @@ const rows = [
 ];
 function Dashboard() {
   const { sales, tasks } = reportsLineChartData;
+  const { columns, rows1 } = authorsTableData();
+  const { columns: pColumns, rows1: pRows } = projectsTableData();
 
   return (
     <DashboardLayout>
@@ -159,9 +171,9 @@ function Dashboard() {
             </Grid>
           </Grid>
         </MDBox>
-        <MDBox mt={4.5}>
-          <Grid container spacing={3}>
-            <Grid item xs={12} md={6} lg={12}>
+        <MDBox pt={6} pb={3}>
+          <Grid container spacing={6}>
+            <Grid item xs={12}>
               <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                   <TableHead>
@@ -200,6 +212,65 @@ function Dashboard() {
             </Grid>
           </Grid>
         </MDBox>
+
+        {/* <MDBox pt={6} pb={3}>
+          <Grid container spacing={6}>
+            <Grid item xs={12}>
+              <Card>
+                <MDBox
+                  mx={2}
+                  mt={-3}
+                  py={3}
+                  px={2}
+                  variant="gradient"
+                  bgColor="info"
+                  borderRadius="lg"
+                  coloredShadow="info"
+                >
+                  <MDTypography variant="h6" color="white">
+                    Tasks
+                  </MDTypography>
+                </MDBox>
+                <MDBox pt={3}>
+                  <DataTable
+                    table={{ columns, rows1 }}
+                    isSorted={false}
+                    entriesPerPage={false}
+                    showTotalEntries={false}
+                    noEndBorder
+                  />
+                </MDBox>
+              </Card>
+            </Grid>
+            <Grid item xs={12}>
+              <Card>
+                <MDBox
+                  mx={2}
+                  mt={-3}
+                  py={3}
+                  px={2}
+                  variant="gradient"
+                  bgColor="info"
+                  borderRadius="lg"
+                  coloredShadow="info"
+                >
+                  <MDTypography variant="h6" color="white">
+                    Projects Table
+                  </MDTypography>
+                </MDBox>
+                <MDBox pt={3}>
+                  <DataTable
+                    table={{ columns: pColumns, rows1: pRows }}
+                    isSorted={false}
+                    entriesPerPage={false}
+                    showTotalEntries={false}
+                    noEndBorder
+                  />
+                </MDBox>
+              </Card>
+            </Grid>
+          </Grid>
+        </MDBox> */}
       </MDBox>
       <Footer />
     </DashboardLayout>

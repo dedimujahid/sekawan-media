@@ -1,6 +1,6 @@
 /**
 =========================================================
-* Material Dashboard 2  React - v2.2.0
+* Sekawan Media  React - v2.2.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/material-dashboard-react
@@ -36,17 +36,17 @@ import {
 import Card from "@mui/material/Card";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// Sekawan Media React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 
-// Material Dashboard 2 React helper functions
+// Sekawan Media React helper functions
 import gradientChartLine from "assets/theme/functions/gradientChartLine";
 
 // GradientLineChart configurations
 import configs from "examples/Charts/LineCharts/GradientLineChart/configs";
 
-// Material Dashboard 2 React base styles
+// Sekawan Media React base styles
 import colors from "assets/theme/base/colors";
 
 ChartJS.register(

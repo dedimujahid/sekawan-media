@@ -1,8 +1,8 @@
-// Material Dashboard 2 React Base Styles
+// Sekawan Media React Base Styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 
-// Material Dashboard 2 React Helper Functions
+// Sekawan Media React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { white, text, info, secondary } = colors;

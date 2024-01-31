@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 // @mui material components
 import Grid from "@mui/material/Grid";
 
-// Material Dashboard 2 React components
+// Sekawan Media React components
 import MDBox from "components/MDBox";
 
-// Material Dashboard 2 React example components
+// Sekawan Media React example components
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import PageLayout from "examples/LayoutContainers/PageLayout";
 

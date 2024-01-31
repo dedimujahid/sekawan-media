@@ -1,7 +1,7 @@
-// Material Dashboard 2 React base styles
+// Sekawan Media React base styles
 import breakpoints from "assets/theme/base/breakpoints";
 
-// Material Dashboard 2 React helper functions
+// Sekawan Media React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const {

@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 // @mui material components
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// Sekawan Media React components
 import MDBox from "components/MDBox";
 
-// Material Dashboard 2 React contexts
+// Sekawan Media React contexts
 import { useMaterialUIController } from "context";
 
 function DataTableHeadCell({ width, children, sorted, align, ...rest }) {

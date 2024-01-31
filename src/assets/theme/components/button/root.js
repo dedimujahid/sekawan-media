@@ -1,10 +1,10 @@
 //
 
-// Material Dashboard 2 React Base Styles
+// Sekawan Media React Base Styles
 import typography from "assets/theme/base/typography";
 import borders from "assets/theme/base/borders";
 
-// Material Dashboard 2 React Helper Functions
+// Sekawan Media React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { fontWeightBold, size } = typography;

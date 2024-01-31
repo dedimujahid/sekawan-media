@@ -1,7 +1,7 @@
-// Material Dashboard 2 React Base Styles
+// Sekawan Media React Base Styles
 import colors from "assets/theme/base/colors";
 
-// Material Dashboard 2 React Helper Functions
+// Sekawan Media React Helper Functions
 import boxShadow from "assets/theme/functions/boxShadow";
 
 const { black, white, tabs, coloredShadows } = colors;

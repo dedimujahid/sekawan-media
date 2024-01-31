@@ -10,7 +10,7 @@ import PropTypes from "prop-types";
 import { Breadcrumbs as MuiBreadcrumbs } from "@mui/material";
 import Icon from "@mui/material/Icon";
 
-// Material Dashboard 2 React components
+// Sekawan Media React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
 

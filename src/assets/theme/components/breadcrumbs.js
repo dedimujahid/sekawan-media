@@ -1,4 +1,4 @@
-// Material Dashboard 2 React base styles
+// Sekawan Media React base styles
 import colors from "assets/theme/base/colors";
 import typography from "assets/theme/base/typography";
 

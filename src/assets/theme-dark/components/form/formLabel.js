@@ -1,6 +1,6 @@
 //
 
-// Material Dashboard 2 React base styles
+// Sekawan Media React base styles
 import colors from "assets/theme-dark/base/colors";
 
 const { text } = colors;

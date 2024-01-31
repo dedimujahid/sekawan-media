@@ -1,4 +1,4 @@
-// Material Dashboard 2 React base styles
+// Sekawan Media React base styles
 import borders from "assets/theme/base/borders";
 
 const { borderRadius } = borders;
