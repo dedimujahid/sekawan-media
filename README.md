@@ -17,6 +17,8 @@
     npm start
     ```
 
- 4. **Tampilah Hasil** 
- 
-   
+ 4. **Tampilan Hasil** 
+https://raw.githubusercontent.com/dedimujahid/sekawan-media/main/src/assets/images/hasil/1.png
+https://raw.githubusercontent.com/dedimujahid/sekawan-media/main/src/assets/images/hasil/2.png
+https://raw.githubusercontent.com/dedimujahid/sekawan-media/main/src/assets/images/hasil/3.png
+https://raw.githubusercontent.com/dedimujahid/sekawan-media/main/src/assets/images/hasil/4.png
